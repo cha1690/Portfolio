@@ -1,8 +1,12 @@
 /* global styles ----------------*/
 
-html
-{
-	/*font-size: 2vw;*/
+ @media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  #about, #myskills, #home, #myservices #resume #contact {
+    width:100%;
+    font-size: .5rem;
+  }
+
 }
 body{
 	margin: 0;
@@ -77,15 +81,15 @@ p {
 }
 
 #logo{
-	width: 40px;
-	height: 40px;
+	width: 200px;
+	height: 200px;
 	padding: 16px;
-	float: left;
+	/*float: left;*/
 }
 
 /* homepage body----------------*/
 
-.home .intro{
+#home .intro{
 	background-color: white;
 	font-weight: bold;
 	padding: 250px;
@@ -109,7 +113,7 @@ p {
 
 /* About Me----------------*/
 
-.about{
+#about{
 	height: 40rem;
 	margin-top: 5rem;
 	/*border: 1px solid;*/
@@ -169,7 +173,7 @@ p {
 
 /* My Skills----------------*/
 
-.myskills{
+#myskills{
 	text-align: center;
 	height: 30rem;
 	/*border: 1px solid;*/
@@ -220,7 +224,7 @@ p {
 
 /* My Services----------------*/
 
-.myservices{
+#myservices{
 	text-align: center;
 	height: 40rem;
 	background-color: #fafafa;
@@ -270,9 +274,9 @@ p {
 
 /* My Resume----------------*/
 
-.resume{
+#resume{
 	text-align: center;
-	height: 70rem;
+	height: 75rem;
 	background-color: white;
 	/*border: 1px solid;*/
 }
@@ -310,6 +314,8 @@ p {
 
 .education {
   background-color: #fafafa;
+  width: 35rem;
+  height: 14rem;
   /*border: 1px solid;*/
   font-size: 1rem;
   text-align: left;
@@ -401,7 +407,7 @@ p {
 .titletext1{
 	font-family: 'Montserrat', sans-serif;	
 	font-size: 2rem;
-	width: 15rem;
+	width: 20rem;
 	height: 1.5rem;
 	/*border: 1px solid;*/
 	text-align: left;
@@ -421,69 +427,8 @@ p {
 
 }
 
-/* Testimonials----------------*/
-
-.testimonials{
+#contact{
 	text-align: center;
-	height: 70rem;
+	height: 20rem;
 	background-color: #fafafa;
-	/*border: 1px solid;*/
-}
-
-.testimonialcontainer{
-	display: grid;
-	grid-template-columns: auto auto;
-	background-color: #fafafa;
-	grid-column-gap: 25px;
-	margin: 100px;
-}
-
-.testimonial-item{
-	background-color: #fafafa;
-	/*border: 1px solid;*/
-	font-size: 1rem;
-	text-align: left;
-	padding: 25px 25px 0 25px;
-	box-shadow: 1px 1px 5px grey;
-	color: #606060;
-	font-family: Open Sans;
-
-}
-
-#testimonialicon{
-	width: 60px;
-	height: 60px;
-	padding: 0;
-	float: left;
-	margin-top: -3.5em;
-	/*margin-bottom: 5em;*/
-	display: inline-block;
-	border-radius: 50%;
-	border:1px solid grey;
-}
-
-.bossname{
-	font-size: 1.5rem;
-	color: black;
-	font-weight: bold;
-    line-height: 1;
-    margin-bottom: 10px;
-}
-
-.testimonialheading{
-	display: inline-block;
-	padding: 1em 0 1em 0;
-}
-
-.desig-company{
-	color: grey;	
-	font-size: 1rem;
-}
-
-.testimonialdescrip{
-	justify-content: space-around;
-	font-size: 1rem;
-	font-family: 'sans-serif';
-	line-height: 1.75rem;
-	padding-bottom: 2em;
 }

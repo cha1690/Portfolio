@@ -5,64 +5,67 @@
 	<title>Rucha Deshpande Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="portfolio.css">
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat&display=swap" rel="stylesheet">
-	<script type="text/javascript">
-		
-	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 	<nav class="navbar">
 		<div class="leftnavbar">
-			<img id="logo" src="icons/letter-r.svg">	<a href="#home">Portfolio</a>
+			<a href="#home">Portfolio</a>
 		</div>
 		<div class="rightnavbar">
 			<a href="#about">About</a>
 			<a href="#myskills">Skills</a>
-			<a href="#myservices">Services</a>
-			<a href="#myservices">Resume</a>
+			<a href="#myservices">Projects</a>
+			<a href="#resume">Journey</a>
 			<a href="#contact">Contact</a>
 		</div>
 	</nav>
-	<div class="home">
+	<div id="home">
 		<div class="bg-image"></div>
 		<div class="intro">
 			<h1>Hi, I'm Rucha Deshpande <h1>
-			<h3>Market-Researcher + Developer </h3>
+			<h3> Market-Researcher + Full-Stack Developer </h3>
 			<nav class="socialmedia">
-				<a href="">
-					<img src="icons/facebook.svg">
-				</a>
-				<a href="">
+				<a href="https://github.com/cha1690" target="_blank">
 					<img src="icons/github.svg">
 				</a>
-				<a href="">
+				<a href="https://www.linkedin.com/in/rucha-deshpande-087b7342/" target="_blank">
 					<img src="icons/linkedin.svg">
 				</a>
 			</nav>
 		</div>
 	</div>
-	<div class="about">
+	<div id="about">
 		<div class="title">
 			<div class="titlebg-img"></div>
 			<div class="titletext">About Me</div>
 		</div>
 		<img id="aboutmeimage" src="ruchadeshpande.png">
 		<div class="aboutmetext">
-			<p>I am a market researcher by day (professionally) and developer by night (possesively). Incessantly trying to strike a balance between Microsoft Excel and Javascript, Tableau and HTML+CSS. I love tinkering with numbers and code! Also, a new mom in town, trying to juggle life with a naughty toddler. I am an engineer who decided to get a MBA in marketing.</p>
+			<p>I am a market researcher turned web-developer. I love tinkering with numbers and code! Also, a new mom in town, trying to juggle life with a naughty toddler. I am an engineer who decided to get a MBA in marketing.</p>
 		</div>
 		<div class="button">
 			<button class="darkbutton">Hire Me</button>
-			<button class="whitebutton">Download my CV</button>
+			<button class="whitebutton">Resume</button>
 		</div>
 	</div>
-	<div class="myskills">
+	<div id="myskills">
 		<div class="title1">
 				<div class="titlebg-centerleft1"></div>
 				<div class="titletext1">Skills</div>
 		</div>
 		<div class="allskills">
 			<div class="skill">
-				<div class="skillheading">HTML
+				<div class="skillheading">HTML + CSS + Javascript
+					<div class="skillpercentage">80%</div>
+				</div>
+				<div class="container">
+					<div class="skillgraph"></div>
+				</div>
+			</div>
+			<div class="skill">
+				<div class="skillheading"> React.js + Redux 
 					<div class="skillpercentage">90%</div>
 				</div>
 				<div class="container">
@@ -70,7 +73,7 @@
 				</div>
 			</div>
 			<div class="skill">
-				<div class="skillheading">CSS
+				<div class="skillheading">Node.js + Express.js
 					<div class="skillpercentage">90%</div>
 				</div>
 				<div class="container">
@@ -78,15 +81,7 @@
 				</div>
 			</div>
 			<div class="skill">
-				<div class="skillheading">Excel
-					<div class="skillpercentage">90%</div>
-				</div>
-				<div class="container">
-					<div class="skillgraph"></div>
-				</div>
-			</div>
-			<div class="skill">
-				<div class="skillheading">Data Visualisation(Tableau+ Excel Dahsboard)
+				<div class="skillheading">Data Analysis + Visualisation
 					<div class="skillpercentage">90%</div>
 				</div>
 				<div class="container">
@@ -95,10 +90,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="myservices">
+	<div id="myservices">
 		<div class="title1">
 				<div class="titlebg-centerleft1"></div>
-				<div class="titletext1">My Services</div>
+				<div class="titletext1">Projects</div>
 		</div>
 		<div class="grid-container">
 			<div class="grid-item">
@@ -131,50 +126,50 @@
 			</div>
 		</div>
 	</div>
-	<div class="resume">
+	<div id="resume">
 		<div class="title1">
 				<div class="titlebg-centerleft1"></div>
-				<div class="titletext1">Resume</div>
+				<div class="titletext1">Coding Journey</div>
 		</div>
 		<div class="grid">
 			<div class="grid-containerleft">
 				<div class="sectionhead"> 
-				<img id="educationicon" src="icons/education.svg"> Education 
+				<img id="educationicon" src="icons/education.svg"> Leraning to Code 
 				</div>
 				<div class="education">
-					<div class="date">June 2013 - June 2015 </div>
+					<div class="date"> September 2019 </div>
 					<img id="edu1" src="icons/data.svg">
-					<div class="eduheading">MBA (Marketing Communication)</div>	
+					<div class="eduheading">Zero to Mastery Course</div>	
 					<div class="edudescrip">
-						Spend Analysis is the process of collecting, cleansing, classifying and analyzing expenditure data with the purpose of decreasing procurement costs, improving efficiency, and monitoring controls and compliance. 
+						Absolutely loved this course. Its a great course for anyone with zero coding experience. It covers HTML, CSS, Javascript, NPM, React, Node, Express, PostgresSQL & API
 					</div>
-					<div class="educollege">KJ Somaiya Institute of Management Studies</div>
+					<div class="educollege">Platform - Udemy (Desktop)</div>
 					<div class="blackline"></div>
 				</div>
 				<div class="education">
-					<div class="date">June 2008 - June 2012 </div>
+					<div class="date">September 2019 </div>
 					<img id="edu1" src="icons/data.svg">
-					<div class="eduheading">B.E. (Electronics & Telecommunication)</div>	
+					<div class="eduheading">FreeCodeCamp</div>	
 					<div class="edudescrip">
-						Spend Analysis is the process of collecting, cleansing, classifying and analyzing expenditure data with the purpose of decreasing procurement costs, improving efficiency, and monitoring controls and compliance. 
+						One of the most amazing free resources out there. It makes sure that you type out everything. I used the website to go through almost every front-end concept. I understood the flex-box and css grids best from here
 					</div>
-					<div class="educollege">JNEC</div>
+					<div class="educollege">Platform - FreeCodeCamp.org (Desktop) </div>
 					<div class="blackline"></div>
 				</div>
 				<div class="education">
-					<div class="date">June 2006 - June 2008 </div>
+					<div class="date"> June 2019 </div>
 					<img id="edu1" src="icons/data.svg">
-					<div class="eduheading">Higher Secondary School Certificate</div>	
+					<div class="eduheading">Solo Learn</div>	
 					<div class="edudescrip">
-						Spend Analysis is the process of collecting, cleansing, classifying and analyzing expenditure data with the purpose of decreasing procurement costs, improving efficiency, and monitoring controls and compliance. T
+						Used the app majorly when I was tired at the night. I did most of sections as a revision laying in the bed. It really helped just going through all the basic concepts and logics. I used the app for HTML, CSS, Javascript and Python.
 					</div>
-					<div class="educollege">Deogiri College</div>
+					<div class="educollege">Platform - Mobile App</div>
 					<div class="blackline"></div>
 				</div>
 			</div>
 			<div class="grid-containerright">
 				<div class="sectionhead"> 
-				<img id="educationicon" src="icons/education.svg"> Experience
+				<img id="educationicon" src="icons/fail.svg"> Roadblocks
 				</div>
 				<div class="education">
 					<div class="date">June 2013 - June 2015 </div>
@@ -209,32 +204,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="testimonials">
+	<div id="contact">
 		<div class="title1">
 				<div class="titlebg-centerleft1"></div>
-				<div class="titletext1">Testimonials</div>
+				<div class="titletext1">Get in touch!</div>
 		</div>
-		<div class="testimonialcontainer">
-			<div class="testimonial-item">
-				<img id="testimonialicon" src="icons/woman.svg">
-				<div class="testimonialheading">
-					<div class="bossname">Mayur Mundada</div>
-					<div class="desig-company">Founder & CEO, Ambitionbox</div>
-				</div>	
-				<div class="testimonialdescrip">
-					Spend Analysis is the process of collecting, cleansing, classifying and analyzing expenditure data with the purpose of decreasing procurement costs, improving efficiency, and monitoring controls and compliance. 
-				</div>
-			</div>
-			<div class="testimonial-item">
-					<img id="testimonialicon" src="icons/woman.svg">
-					<div class="testimonialheading">
-						<div class="bossname">Mayur Mundada</div>
-						<div class="desig-company">Founder & CEO, Ambitionbox</div>
-					</div>	
-					<div class="testimonialdescrip">
-						Spend Analysis is the process of collecting, cleansing, classifying and analyzing expenditure data with the purpose of decreasing procurement costs, improving efficiency, and monitoring controls and compliance. 
-					</div>
-			</div>	
+		<div>
+			
 		</div>
 	</div>
 </body>
